@@ -39,6 +39,13 @@ git config --global user.name "Satya Prakash Sahoo"
 git config --global user.email "mynameissatyaprakashsahoo@gmail.com"
 ```
 
+To check the names and email of the git user
+
+```
+git config --global user.name
+git config --global user.email
+```
+
 Add the files using git to staging area
 
 ```
@@ -46,7 +53,7 @@ git add requirements.txt README.md (if you want to add only a single or selected
 git add . (if you want to add all the files, we will use this one)
 ```
 
-Check the status of the files
+To check the status of the files
 
 ```
 git status
@@ -55,5 +62,11 @@ git status
 Commit the files in the staging
 
 ```
-git commit -m
+git commit -m "This commit includes requirement.txt and readme file"
+```
+
+Push the committed changes to the repository
+
+```
+git push origin main
 ```
